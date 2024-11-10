@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Interactiva</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Guía Interactiva del Documento</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Menú lateral -->
+                <div id="menu-lateral">
+                    <ul class="menu-list">
+                        <li onclick="mostrarSeccion('objetivo')">Objetivo Principal</li>
+                        <li onclick="mostrarSeccion('especificos')">Objetivos Específicos</li>
+                        <li onclick="mostrarSeccion('resumen')">Resumen de la Actividad</li>
+                        <li onclick="mostrarSeccion('glosario')">Glosario de Términos</li>
+                        <li onclick="mostrarSeccion('pasos')">Pasos a Seguir</li>
+                        <li onclick="mostrarSeccion('conclusiones')">Conclusiones</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <!-- Contenido dinámico -->
+                <div id="contenido">
+                    <div id="objetivo" class="seccion">
+                        <h2>Objetivo Principal</h2>
+                        <p>Descripción del objetivo principal...</p>
+                    </div>
+                    <div id="especificos" class="seccion">
+                        <h2>Objetivos Específicos</h2>
+                        <p>Descripción de los objetivos específicos...</p>
+                    </div>
+                    <div id="resumen" class="seccion">
+                        <h2>Resumen de la Actividad</h2>
+                        <p>Descripción del resumen de la actividad...</p>
+                    </div>
+                    <div id="glosario" class="seccion">
+                        <h2>Glosario de Términos</h2>
+                        <p>Descripción del glosario de términos...</p>
+                    </div>
+                    <div id="pasos" class="seccion">
+                        <h2>Pasos a Seguir</h2>
+                        <p>Descripción de los pasos a seguir...</p>
+                    </div>
+                    <div id="conclusiones" class="seccion">
+                        <h2>Conclusiones</h2>
+                        <p>Descripción de las conclusiones...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
